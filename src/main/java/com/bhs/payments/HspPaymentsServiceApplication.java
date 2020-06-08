@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class HspPaymentsServiceApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(HspPaymentsServiceApplication.class, args);
-	}
+  public static void main(String[] args) {
+    SpringApplication.run(HspPaymentsServiceApplication.class, args);
+  }
 
 }
