@@ -9,6 +9,8 @@ group = 'com.bhs.payments'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '1.8'
 
+apply from: "$rootDir/gradle/checkstyle.gradle"
+
 configurations {
 	compileOnly {
 		extendsFrom annotationProcessor
